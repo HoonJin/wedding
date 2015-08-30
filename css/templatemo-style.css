@@ -255,17 +255,17 @@ h4
 /* end home */
 
 /* start service */
-#service
+#introduction
     {
         background: #ffffff;
         padding-top: 80px;
         padding-bottom: 80px;
     }
-#service .media
+#introduction .media
     {
         padding: 10px;
     }
-#service .media .fa
+#introduction .media .fa
     {
         color: #55acee;
         font-size: 60px;
@@ -273,7 +273,7 @@ h4
         width: 65px;
         height: 65px;
     }
-#service .media .media-heading
+#introduction .media .media-heading
     {
         font-weight: 600;
         font-size: 20px;
