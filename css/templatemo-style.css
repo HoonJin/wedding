@@ -12,8 +12,10 @@ body
 }
 
 p.korean{
+    text-align: left;
     font-weight: 600;
     font-size: 18px;
+    word-break: keep-all;
 }
 
 /* start hr */
