@@ -6,12 +6,13 @@ http://www.templatemo.com/free-website-templates/461-workforce
 body
 {
     background: #f0f0f0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Nanum Gothic', Verdana, sans-serif;
     font-weight: 400;
     overflow-x: hidden;
 }
 
-p{
+p.korean{
+    font-weight: 600;
     font-size: 18px;
 }
 
