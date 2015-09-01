@@ -1,43 +1,46 @@
 /*
-
 Workforce Template
-
 http://www.templatemo.com/free-website-templates/461-workforce
-
 */
 
 body
-    {
-        background: #f9f9f9;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        overflow-x: hidden;
-    }
+{
+    background: #f0f0f0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
 
 /* start hr */
 hr
-    {
-        border: 1px solid #55acee;
-        width: 100px;
-        margin-top: 20px;
-    }
+{
+    border: 1px solid #55acee;
+    width: 100px;
+    margin-top: 20px;
+}
 /* end hr */
 
 /* start h2 */
 h2
-    {
-        font-size: 60px;
-        text-align: center;
-    }
+{
+/*    font-weight: bold;*/
+    font-size: 60px;
+    text-align: center;
+}
 /* end h2 */
 
 /* start h4 */
 h4
-    {
-        text-align: center;
-        padding-bottom: 50px;
-    }
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
 /* end h4 */
+
+h5 {
+    font-size: 40px;
+}
+
 .btn {
     background: transparent;
     border-radius: 10px;
@@ -46,6 +49,7 @@ h4
 	padding: 12px 22px;
     transition: all 0.4s ease-in-out;  
 }
+
 .btn:hover {
     background: #55acee;
     border-color: transparent;
