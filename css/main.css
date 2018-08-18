@@ -8,12 +8,12 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #691cff;
+  /*background-color: #691cff;*/
   color: #fff;
 }
 
 ::selection {
-  background-color: #691cff;
+  /*background-color: #691cff;*/
   color: #fff;
 }
 
@@ -1971,9 +1971,9 @@ nav a:hover {
 }
 
 .p1-gradient-color, .about-details h2 {
-  background: -moz-linear-gradient(0deg, #691cff 0%, #f51cb0 100%);
-  background: -webkit-linear-gradient(0deg, #691cff 0%, #f51cb0 100%);
-  background: -ms-linear-gradient(0deg, #691cff 0%, #f51cb0 100%);
+  /*background: -moz-linear-gradient(0deg, #691cff 0%, #f51cb0 100%);*/
+  /*background: -webkit-linear-gradient(0deg, #691cff 0%, #f51cb0 100%);*/
+  /*background: -ms-linear-gradient(0deg, #691cff 0%, #f51cb0 100%);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2026,7 +2026,21 @@ nav a:hover {
 }
 
 @media (max-width: 767px) {
+  .banner-area {
+    background: url(../img/banner-bg-mobile.jpg) no-repeat center center/cover;
+  }
+
   .banner-area .fullscreen {
+    height: 700px !important;
+  }
+}
+
+.greeting-area {
+  background: url(../img/greeting-bg.jpg) no-repeat center center/cover;
+}
+
+@media (max-width: 767px) {
+  .greeting-area .fullscreen {
     height: 700px !important;
   }
 }
@@ -2490,11 +2504,11 @@ nav a:hover {
 }
 
 .copy-right-text i {
-  color: #691cff;
+  /*color: #691cff;*/
 }
 
 .copy-right-text a {
-  color: #691cff;
+  /*color: #691cff;*/
 }
 
 .copy-right-text a:hover {
@@ -2531,5 +2545,11 @@ nav a:hover {
 @media (max-width: 991px) {
   .footer-social {
     text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-none {
+    display: none;
   }
 }
