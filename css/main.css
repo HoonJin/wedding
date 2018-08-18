@@ -2038,12 +2038,13 @@ nav a:hover {
 }
 
 .banner-content h1 {
-  color: rgba(27, 158, 72, 0.8);
+  color: rgba(19, 139, 67, 0.75);
+  text-shadow: 13px 15px 8px rgba(19, 139, 67, 0.3);
   font-size: 64px;
+  margin-bottom: 10px;
   letter-spacing: 3px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.15em;
-  text-shadow: 13px 15px 8px rgba(27, 158, 72, 0.5);
 }
 
 @media (max-width: 991px) {
@@ -2060,7 +2061,7 @@ nav a:hover {
 
 @media (max-width: 1199px) {
   .banner-content h1 {
-    font-size: 90px;
+    font-size: 48px;
   }
 }
 
@@ -2071,8 +2072,8 @@ nav a:hover {
 }
 
 .banner-content p {
-  color: #fff;
-  margin-bottom: 60px;
+  color: rgba(19, 139, 67);
+  /*margin-bottom: 60px;*/
   font-weight: 400;
   letter-spacing: 3px;
   max-width: 730px;
@@ -2081,7 +2082,7 @@ nav a:hover {
 
 @media (max-width: 767px) {
   .banner-content p {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 }
 
