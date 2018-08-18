@@ -1911,10 +1911,10 @@ nav {
     background: #fff;
   }
   nav a {
-    color: #691cff !important;
+    /*color: #691cff !important;*/
   }
   nav a:hover {
-    color: #691cff;
+    /*color: #691cff;*/
   }
 }
 
@@ -1923,7 +1923,7 @@ nav.hide {
 }
 
 nav a {
-  color: #fff;
+  /*color: #fff;*/
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1938,7 +1938,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #fff;
+  /*color: #fff;*/
 }
 
 .section-gap {
@@ -1965,9 +1965,9 @@ nav a:hover {
 }
 
 .p1-gradient-bg, .primary-btn:after, .is-sticky .default-header, .single-img, .member-area .overlay-bg, .contact-area .primary-btn, .footer-social a:hover {
-  background-image: -moz-linear-gradient(0deg, #691cff 0%, #f51cb0 100%);
-  background-image: -webkit-linear-gradient(0deg, #691cff 0%, #f51cb0 100%);
-  background-image: -ms-linear-gradient(0deg, #691cff 0%, #f51cb0 100%);
+  /*background-image: -moz-linear-gradient(0deg, #691cff 0%, #f51cb0 100%);*/
+  /*background-image: -webkit-linear-gradient(0deg, #691cff 0%, #f51cb0 100%);*/
+  /*background-image: -ms-linear-gradient(0deg, #691cff 0%, #f51cb0 100%);*/
 }
 
 .p1-gradient-color, .about-details h2 {
@@ -2038,12 +2038,12 @@ nav a:hover {
 }
 
 .banner-content h1 {
-  color: #fff;
+  color: rgba(27, 158, 72, 0.8);
   font-size: 64px;
   letter-spacing: 3px;
   font-weight: 700;
   line-height: 1.15em;
-  text-shadow: 13px 15px 8px rgba(63, 107, 169, 0.5);
+  text-shadow: 13px 15px 8px rgba(27, 158, 72, 0.5);
 }
 
 @media (max-width: 991px) {
