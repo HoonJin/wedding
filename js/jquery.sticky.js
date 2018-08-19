@@ -55,7 +55,7 @@
           }
           if (s.currentTop != newTop) {
             s.stickyElement
-              .css('width', s.stickyElement.width())
+              .css('width', $window.width())
               .css('position', 'fixed')
               .css('top', newTop);
 
