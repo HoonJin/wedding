@@ -121,7 +121,7 @@ a, a:focus, a:hover {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  /*color: #222222;*/
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
@@ -134,7 +134,7 @@ h4, h5, h6 {
   margin-top: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #222222;
+  /*color: #222222;*/
 }
 
 h1, .h1 {
@@ -780,7 +780,7 @@ td, th {
 }
 
 b, i, sup, sub, u, del {
-  color: #fcd2ff;
+  /*color: rgb(66, 139, 50);*/
 }
 
 h1 {
@@ -2087,7 +2087,13 @@ nav a:hover {
 
 @media (max-width: 414px) {
   .banner-content h1 {
-    font-size: 32px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 360px) {
+  .banner-content h1 {
+    font-size: 34px;
   }
 }
 
@@ -2110,9 +2116,9 @@ nav a:hover {
   }
 }
 
-@media (max-width: 991px) {
-  .banner-content p br {
-    /*display: none;*/
+@media (max-width: 360px) {
+  .banner-content p {
+    font-size: 17px;
   }
 }
 
