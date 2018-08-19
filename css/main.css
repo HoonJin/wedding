@@ -56,7 +56,6 @@ body {
   font-weight: 400;
   line-height: 1.625em;
   position: relative;
-  /*background-color: rgb(66, 139, 50, 0.1);*/
   background-color: rgb(217,237,225);
 }
 
@@ -1907,6 +1906,7 @@ nav {
 
 @media (max-width: 767px) {
   nav {
+    width: 110px;
     margin-right: 0;
     position: absolute;
     right: 0;
@@ -1917,10 +1917,10 @@ nav {
     background: #fff;
   }
   nav a {
-    /*color: #691cff !important;*/
+    color: rgb(66, 139, 50) !important;
   }
   nav a:hover {
-    /*color: #691cff;*/
+    color: rgb(66, 139, 50);
   }
 }
 
@@ -1929,7 +1929,7 @@ nav.hide {
 }
 
 nav a {
-  /*color: #fff;*/
+  color: #fff;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1944,7 +1944,7 @@ nav a {
 }
 
 nav a:hover {
-  /*color: #fff;*/
+  color: #fff;
 }
 
 .section-gap {
@@ -2508,7 +2508,8 @@ nav a:hover {
 }
 
 .footer-area {
-  padding: 40px 0;
+  background-color: rgb(66, 139, 50, 0.2);
+  padding: 40px 0 0 0;
 }
 
 .copy-right-text {
