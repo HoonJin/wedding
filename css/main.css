@@ -2041,6 +2041,39 @@ nav a:hover {
   }
 }
 
+.introduce-area {
+  max-width: 960px;
+  font-size: 24px;
+  color: #333;
+}
+
+.hash-tag-background {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 3px;
+  margin: 4px;
+  display: initial;
+}
+
+@media (max-width: 767px) {
+  .introduce-area .fullscreen {
+    height: 700px !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .introduce-area .fullscreen {
+    height: 414px !important;
+  }
+}
+
+.introduce-he {
+  background: url(../img/he.jpg) no-repeat center center/cover;
+}
+
+.introduce-she {
+  background: url(../img/she.jpg) no-repeat center center/cover;
+}
+
 .greeting-area {
   background: url(../img/greeting-bg.jpg) no-repeat center center/cover;
 }
