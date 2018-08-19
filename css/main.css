@@ -50,12 +50,14 @@
 }
 
 body {
-  color: #777777;
+  color: rgb(66, 139, 50);
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 400;
   line-height: 1.625em;
   position: relative;
+  /*background-color: rgb(66, 139, 50, 0.1);*/
+  background-color: rgb(217,237,225);
 }
 
 ol, ul {
@@ -234,7 +236,11 @@ td, th {
   font-weight: 500;
 }
 
-.f700 {
+.fw600 {
+  font-weight: 600;
+}
+
+.fw700 {
   font-weight: 700;
 }
 
@@ -2107,39 +2113,6 @@ nav a:hover {
 @media (max-width: 991px) {
   .banner-content p br {
     /*display: none;*/
-  }
-}
-
-.quote-left h2 {
-  font-weight: 100;
-}
-
-.quote-left h2 span {
-  font-weight: 600;
-}
-
-@media (max-width: 1199px) {
-  .quote-left h2 {
-    font-size: 28px;
-  }
-}
-
-@media (max-width: 991px) {
-  .quote-left h2 {
-    padding-bottom: 25px;
-    text-align: center !important;
-  }
-}
-
-@media (max-width: 414px) {
-  .quote-left h2 {
-    font-size: 24px;
-  }
-}
-
-@media (max-width: 991px) {
-  .quote-right p {
-    text-align: center !important;
   }
 }
 
